@@ -1,1 +1,8 @@
-
+query {
+  page (Int: 4) {
+    id
+    name
+    status
+    image
+  }
+}
